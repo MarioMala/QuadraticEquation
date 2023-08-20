@@ -1,0 +1,92 @@
+/** @format */
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;700&family=Oswald:wght@200;300;400;500;700&family=Roboto:wght@100;300;700&family=Teko:wght@300;400;700&family=Ubuntu+Condensed&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/** @format */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #ededed;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80vw;
+  min-height: 80vh;
+}
+
+.container h1 {
+  margin: 1rem;
+  text-align: center;
+  color: green;
+  font-size: 3rem;
+}
+
+.data {
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.data input {
+  width: 7rem;
+  height: 2.5rem;
+  margin-right: 0.3rem;
+  padding-left: 0.5rem;
+  outline: none;
+  font-size: 2rem;
+  color: #000;
+}
+
+.data label {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.data p {
+  font-size: 2rem;
+}
+
+.btn {
+  width: 90%;
+  height: 5rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+  font-family: "Teko", sans-serif;
+  box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.panel-result {
+  width: 90%;
+  height: 10vh;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.panel-result p {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

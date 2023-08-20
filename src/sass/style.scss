@@ -1,0 +1,211 @@
+/** @format */
+
+@import './components/reset';
+@import './components/colors';
+@import './components/fonts';
+
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: $gray-color;
+	font-family: $fontIBM;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 80vw;
+	min-height: 80vh;
+	max-height: 100vh;
+	
+}
+
+ h1 {
+	margin: 2rem;
+	text-align: center;
+	color: green;
+	font-size: 3rem;
+	border-bottom: 2px solid $gold-color;
+}
+
+.container h2 {
+	margin: 1rem;
+	text-align: center;
+	color: green;
+	font-size: 2rem;
+}
+
+.data {
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1rem;
+	box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.data input {
+	width: 7rem;
+	height: 2.5rem;
+	margin-right: .3rem;
+	padding-left: 0.5rem;
+	outline: none;
+	font-size: 2rem;
+	color: #000;
+}
+
+.data label {
+	margin-right: 1rem;
+	font-size: 2rem;
+}
+
+.data p {
+	font-size: 2rem;
+}
+
+.btn {
+	width: 90%;
+	height: 5rem;
+	margin-top: 1rem;
+	font-size: 3rem;
+	border-radius: 1rem;
+	font-family: $fontTeko;
+	box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.panel-result {
+	width: 90%;
+	height: 10vh;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1rem;
+	box-shadow: 4px 4px 8px 0px rgba(75, 51, 255, 0.5);
+}
+
+.panel-result p {
+	font-size: 1.5rem;
+	padding-left: 2rem;
+}
+
+.panel-result span {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.wrong {
+	color: $red-color;
+	font-weight: bold;
+}
+
+.two {
+	color: $green-color;
+	font-weight: bold;
+}
+
+.one {
+	color: $blue-color;
+	font-weight: bold;
+}
+
+@media (width < 400px) {
+	body h1 {
+		font-size: 1.5rem;
+	}
+
+	.container {
+		margin: 0.5rem;
+	}
+
+	.container h2 {
+		font-size: 1.6rem;
+	}
+.data {
+	min-width: 100%;
+}
+
+.btn {
+	min-width: 100%;
+	font-size: 2rem;
+}
+	.data input {
+		max-width: 4rem;
+		font-size: 1.4rem;
+	}
+	.data label {
+	margin-right: .5rem;
+	font-size: 1.2rem;
+}
+	.data p {
+	margin-right: .5rem;
+	font-size: 1.2rem;
+}
+
+.panel-result {
+	min-width: 100%;
+}
+.panel-result span {
+	font-size: .8rem;
+}
+.panel-result p {
+	font-size: .8rem;
+}
+
+}
+@media (width > 400px) {
+	body h1 {
+		font-size: 1.5rem;
+	}
+
+	.container {
+		margin: 0.5rem;
+	}
+
+	.container h2 {
+		font-size: 1.6rem;
+	}
+.data {
+	min-width: 100%;
+}
+
+.btn {
+	min-width: 100%;
+	font-size: 2rem;
+}
+	.data input {
+		max-width: 6rem;
+		font-size: 1.8rem;
+	}
+	.data label {
+	margin-right: .5rem;
+	font-size: 1.8rem;
+}
+	.data p {
+	margin-right: .5rem;
+	font-size: 1.8rem;
+}
+
+.panel-result {
+	min-width: 100%;
+}
+.panel-result span {
+	text-align: center;
+	font-size: 1.2rem;
+}
+.panel-result p {
+	font-size: 1.2rem;
+}
+
+}
